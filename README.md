@@ -47,10 +47,6 @@ taskscheduler_create(taskname = "Daily_Schedule_Task", rscript = "C:/Users/examp
  schedule = "DAILY", starttime = "08:50", startdate = format(Sys.Date() + 1, "%d/%m/%Y"))
 ```
 
-## Ready-to-Go Code
-
-The script also includes examples of additional task creation and deletion:
-
 ## Note
 Replace sensitive information such as file paths, task names, and execution times with your actual data before running the script. Ensure that the specified R scripts exist in the provided paths.
 
