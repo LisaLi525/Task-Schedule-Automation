@@ -1,9 +1,3 @@
-```markdown
----
-title: "Task Schedules"
-output: html_notebook
----
-
 # Task Schedules Management
 
 This R script utilizes the `taskscheduleR` package to manage and schedule recurring tasks in a Windows environment. It sets up tasks for running R scripts at specified intervals using the Windows Task Scheduler.
@@ -57,16 +51,7 @@ taskscheduler_create(taskname = "Daily_Schedule_Task", rscript = "C:/Users/examp
 
 The script also includes examples of additional task creation and deletion:
 
-```r
-# ... [Additional task creation and deletion examples]
-```
-
 ## Note
 Replace sensitive information such as file paths, task names, and execution times with your actual data before running the script. Ensure that the specified R scripts exist in the provided paths.
-
-Author: Example User
-Company: Example Company
-Email: example.user@example.com
-```
 
 In this README, replace instances of "example" with your actual company details, and ensure that the specified R scripts exist in the provided paths before running the script.
